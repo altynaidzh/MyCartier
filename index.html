@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cartier</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="logoDiv">
+      <img
+        class="logo"
+        src="./images/cartier-logo-watch-brand-diamond-bezel-a1781238a917961ecb1df76aa4f196bb.png"
+        alt=""
+      />
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">SUMMER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >HIGH JEWELRY</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >JEWELRY</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >WATCHES</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >BAGS AND ACCESSORIES</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >FRAGRANCES</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >ART OF LIVING</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >LA MAISON</a
+              >
+            </li>
+            <li>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <a
+                      class="accordion-button collapsed"
+                      id="btnOpenForm"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      Search
+                    </a>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <div class="d-flex">
+                        <input
+                          id="searchInp"
+                          class="form-control me-2"
+                          type="search"
+                          placeholder="Search"
+                          aria-label="Search"
+                        />
+                        <button
+                          id="searchBtn"
+                          class="btn btn-outline-success"
+                          type="submit"
+                        >
+                          Search
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Create item-->
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            id="btnOpenForm"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne"
+            aria-expanded="false"
+            aria-controls="flush-collapseOne"
+          >
+            Add item +
+          </button>
+        </h2>
+        <div
+          id="flush-collapseOne"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            <input
+              class="form-control me-2"
+              id="inpName"
+              placeholder="Title"
+              type="text"
+            />
+            <input
+              class="form-control me-2"
+              id="inpImg"
+              placeholder="Image"
+              type="text"
+            />
+            <button
+              class="btn btn-outline-success text-success"
+              id="btnAdd"
+              type="submit"
+            >
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mainContainer">
+      <div>
+        <div class="imagesContent">
+          <img
+            class="imagesContent"
+            src="https://www.cartier.com/on/demandware.static/-/Library-Sites-CartierSharedLibrary-BGTJ/default/dwb46cb9b3/homepage/2023/August%20HP/W1%20HP/1.%20CARTIER_SUMMER_ICONS_2560x996.jpg"
+            alt="ring-clock"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="text">
+      <h2>SUNSHINE ICONS</h2>
+      <br/>
+      <p>
+        The Tank watch, Panthère bracelet, or Love ring: Cartier Icons that
+        shine brightest in the sun.
+      </p>
+      <a href="#" style="text-decoration-color: black; color: black"
+        >Shop the selection</a
+      >
+    </div>
+
+    <div class="mainContainer">
+        <div>
+            <img
+              class="imagesContent"
+              src="https://www.cartier.com/on/demandware.static/-/Library-Sites-CartierSharedLibrary-BGTJ/default/dw9ddea6e2/homepage/2023/August%20HP/W1%20HP/06_SLIDESHOW_PANTHERE_GRAPHIQUE_NEL&MAN&SFCC_2560x996_A.jpg"
+              alt="bag"
+            />
+        </div>
+    </div>
+
+    <div class="text">
+        <h2>THE PANTHÈRE GRAPHIQUE DE CARTIER BAG​</h2>
+        <p>It's not a bag, it's an attitude.​</p>
+        <a href="#" style="text-decoration-color: black; color: black"
+        >Shop the selection</a
+      >
+    </div>
+
+    <div class="mainContainer">
+        <div id="third_img">
+            <img
+        class="imagesContent"
+          src="https://www.cartier.com/on/demandware.static/-/Library-Sites-CartierSharedLibrary-BGTJ/default/dw6fe2829d/homepage/2023/August%20HP/W1%20HP/HP%20Stacking%20Image-%201920x1494.jpg"
+          alt="stack"
+        />
+        </div>
+        <div class="text">
+          <br/>
+          <h2>STACKING STORIES</h2>
+          <br/>
+          <p>
+            Every stack has a story. Rewrite the rules of stacking with style
+            statements that express your personality.
+          </p>
+        </div>
+      </div>
+
+      <div class="mainContainer">
+        <div>        
+            <img 
+            class="imagesContent"
+            src="https://www.cartier.com/on/demandware.static/-/Library-Sites-CartierSharedLibrary-BGTJ/default/dw1d210341/homepage/2023/August%20HP/W1%20HP/4.%20CARTIER_SUMMER_BAGS_ACCESSORIES_SELECTION_2560x996.jpg"
+            alt="pool"
+          />
+        </div>
+      </div>
+      <div class="text">
+        <h2>SEASONAL ACCESSORIES</h2>
+        <br />
+        <p>
+          Sunglasses, bags, silk scarves... the Maison's accessories dive into the
+          summer with elegance in an array of joyful colors.
+        </p>
+        <a href="#" style="text-decoration-color: black; color: black"
+        >Shop the selection</a
+        >
+      </div>
+
+      <div class="mainContainer">
+        <div class="card">
+            <div>        
+                <img 
+                class="imagesContent"
+                src="https://www.cartier.com/on/demandware.static/-/Library-Sites-CartierSharedLibrary-BGTJ/default/dw07336a0e/homepage/2023/August%20HP/W1%20HP/2.%20CARTIER_SUMMER_JWL_SELECTION_1680x1377.jpg"
+                alt="pool"
+              />
+            </div>
+            <div class="text">
+                <h2>SUMMER JEWELS</h2>
+                <br />
+                <p>
+                    How to shine at the beach... Earrings, necklaces, rings: the Maison's creations love to soak up the sun.
+                </p>
+                <a href="#" style="text-decoration-color: black; color: black"
+                >Shop the selection</a
+                >
+              </div>
+        </div>
+
+        <div class="card">
+            <div>        
+                <img 
+                class="imagesContent"
+                src="https://www.cartier.com/on/demandware.static/-/Library-Sites-CartierSharedLibrary-BGTJ/default/dw347d81ed/homepage/2023/August%20HP/W1%20HP/2.%20CARTIER_SUMMER_WATCHES_SELECTION_1680x1377.jpg"
+                alt="pool"
+              />
+            </div>
+            <div class="text">
+                <h2>GOLDEN HOUR</h2>
+                <br />
+                <p>
+                  The Maison's watchmaking creations are an elegant ode to summer.
+                </p>
+                <a href="#" style="text-decoration-color: black; color: black"
+                >Shop the selection</a
+                >
+              </div>
+        </div>
+      </div>
+
+      <div class="text">
+        <h2>Enter the Cartier universe</h2>
+        <p>
+          Follow @Cartier to stay up to date with the latest news and collections.
+        </p>
+      </div>
+
+      <div class="d-flex">
+        <section       
+        class="container mt-5 mx-auto d-flex flex-wrap align-content-center"
+        id="section"></section>
+      <button class="prev-button">←</button>
+      <button class="next-button">→</button>
+      </div>
+
+<!-- Details -->
+<div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modalImg"></div>
+      </div>
+    </div>
+  </div>
+</div>
+   
+
+    <!-- MODAL EDIT -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Edit</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <input
+              class="form-control me-2"
+              id="editInpName"
+              placeholder="Title"
+              type="text"
+            />
+            <input
+              class="form-control me-2"
+              id="editInpImage"
+              placeholder="Image"
+              type="text"
+            />
+            <button
+              class="btn btn-outline-success btnSave my-20"
+              id="editBtnSave"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              type="submit"
+            > Edit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="newsletter">
+        <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+        <form>
+          <input type="email" placeholder="Email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer__content">   
+        <ul class="footer__list">
+            <li class="footer__item"><strong>CUSTOMER CARE</strong></li>     
+            <li class="footer__item"><a href="#">CONTACT US</a></li>
+            <li class="footer__item"><a href="#">CALL NOW: 800 227 8437</a></li>
+            <li class="footer__item"><a href="#">FAQ</a></li>
+            <li class="footer__item"><a href="#">TRACK YOUR ORDER</a></li>
+            <li class="footer__item"><a href="#">BOOK AN APPOINTMENT</a></li>   
+        </ul>   
+        <ul class="footer__list">     
+            <li class="footer__item"><strong>OUR COMPANY</strong></li>
+            <li class="footer__item"><a href="#">FIND A BOUTIQUE</a></li>
+            <li class="footer__item"><a href="#">CAREETS</a></li>
+            <li class="footer__item"><a href="#">CARTIER AND CORPORATE SOCIAL RESPONSIBILITY</a></li>
+        </ul>
+        <ul class="footer__list">
+            <li class="footer__item"><strong>LEGAL AREA</strong></li>
+            <li class="footer__item"><a href="#">TERMS OF USE</a></li>
+            <li class="footer__item"><a href="#">PRIVACY POLICY</a></li>
+            <li class="footer__item"><a href="#">CONDITIONS OF SALE</a></li>
+            <li class="footer__item"><a href="#">CONDITIONS OF SALE PAY-BY-LINK</a></li>
+            <li class="footer__item"><a href="#">CREDITS</a></li>
+            <li class="footer__item"><a href="#">ACCESSIBILITY STATEMENT</a></li>
+            <li class="footer__item"><a href="#">CALIFORNIA PRIVACY RIGHTS</a></li>
+            <li class="footer__item"><a href="#">DO NOT SELL OR SHARE MY PERSONAL INFORMATION</a></li>
+        </ul>
+        <ul class="footer__list">
+            <li class="footer__item"><strong>FOLLOW US</strong></li>
+            <li class="footer__item"><img src="https://i.pinimg.com/474x/17/fc/93/17fc93ea85e6db68192109f581154be8.jpg" alt="instagramm" /></li>
+            <li class="footer__item"><img src="https://i.pinimg.com/474x/4a/94/77/4a9477bede69bbce3300e20588b28ebf.jpg" alt="facebook" /></li>
+            <li class="footer__item"><img src="https://i.pinimg.com/474x/37/1e/b4/371eb49bfc02b9fb66d882dd4ff3cdf9.jpg" alt="twitter" /></li>
+            <li class="footer__item"><img src="https://i.pinimg.com/474x/4a/0d/d7/4a0dd7d4a02622868c100f7bab991603.jpg" alt="youtube" /></li>
+            <li class="footer__item"><img src="https://i.pinimg.com/474x/bd/56/14/bd5614e0a4b760eb9b3b18dc346b01a9.jpg" alt="pinterest" /></li>
+        </ul>
+       </div>
+    </div>
+        
+    <div class="footer_end">
+          <p><span class="footer_span">© 2020 - All rights reserved</span></p>
+    </div> 
+
+
+    <!-- Link to JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main/main.js"></script>
+  </body>
+</html>
